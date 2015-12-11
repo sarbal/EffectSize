@@ -5,3 +5,5 @@ Typically, overlapping functional properties of candidate disease genes are expl
 
 This repository contains the gene sets used in testing for the functional effect size trend, some results, and methods for performing similar tests. 
 
+
+![summary](https://github.com/sarbal/EffectSize/blob/master/suppl/schematic.png "schematic")
