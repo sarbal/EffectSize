@@ -20,4 +20,4 @@ pvals.all.post = cbind( teste[[2]][,2], testd[[2]][,2], as.numeric(testgo[[2]][,
 func.labels = c( colnames(func.props.list[[2]]), colnames(func.props.list[[4]]), colnames(func.props.list[[3]]), colnames(func.props.list[[6]]), colnames(func.props.list[[5]]))
 
 # Correlations
-slopes = calc_slopes(func.labels, effect.sizes, pvals.all.post, rr = 1000)
+slopes = calc_slopes(func.labels, effect.sizes[filt.sub], pvals.all.post[,filt.sub], rr = 1000)
